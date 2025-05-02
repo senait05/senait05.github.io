@@ -1,0 +1,62 @@
+
+
+body {
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	background-color: aqua;
+	color: #000;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+ h1{
+	text-align: center;
+	color: #2f08f1;
+	font-size: 30px;
+	white-space: nowrap;
+ }
+
+ h2{
+	color: #2f08f1;
+	font-size: 26px;
+ }
+ 
+ footer{
+	text-align: center;
+ }
+ img{
+	position: relative;
+	overflow: auto;
+	top: 20px;
+	
+ }
+ p{
+	white-space:wrap;
+ }
+ /*
+ Mobile Styles: 0px to 480px
+ */
+ @media only screen and(max-width:480px){
+	p{
+		float: left;
+	}
+ }
+  /*
+ Tablet Styles: 481px and greater
+ */
+ @media only screen and(max-width:481px){
+}
+ /*
+ Desktop Styles: 769px and greater
+ */
+ @media only screen and(max-width:480px){
+}
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link href="newStyle.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>My Favorite Pizza HomeMade</h1>
+            <form action="/submit" method="post">
+            <label for="name">Pissa Type:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="chese">I like to add more:</label>
+            <label for="cheese">cheese:</label>
+            <input type="radio" id="cheese" name="Chese" value="chese" >
+            
+            <label for="sauce">Sauce:</label>
+            <input type="radio" id="sauce" name="sauce"  value="sauce">
+            <hr>
+            <label for="chese">Add topping:</label>
+            <select name="topping">
+                <optgroup label="Vegetables">
+                    <option value="onion">Onion</option>
+                    <option value="bell">Bell Peper</option>
+                    <option value="tomato">Tomato</option>
+                </optgroup>
+                <optgroup label="Protien">
+                    <option value="beef">beef</option>
+                    <option value="chicken">Chicken</option>
+                    <option value="fish">Fish</option>
+                </optgroup>
+               
+            </select>
+            <hr>
+            <label for="place">How do we cook the pizza:</label>
+             <label for="check">Well Done</label>
+            <input type="checkbox" id="check" name="chekbox" required>
+            
+            <label for="medium">Medium</label>
+            <input type="checkbox" id="medium" name="chekbox" required>
+            <hr>
+            <div class="smallbox">
+            <label for="pizzaspiner">Days I made pizza per Week:</label>
+            <input type="number" id="pizzaspiner" name="spinerr" value="1" min="0" max="4" step="1" required>
+    
+            <label for="datetime">Date:</label>
+            <input type="datetime-local" id="start" name="datetime" value="mm-dd-yyy" min="01/01/2000" max="12/31/2030" step="1" required>
+        </div>
+        
+    
+                <label for="pizarange">Rate my pizza:<br> (0=poor, 10=best)</label>
+                
+                <input type="range" id="pizarange" name="range" value="5" min="0" max="10" step="1" required>
+
+        <label for="Dishes">My Favorite Side Dishes:</label>
+          <input name="mydishes" id="Dishes" list="dishlist" type="text">  
+        <datalist id="dishlist">
+            <option value="Pasta">
+            <option value="Salad">
+            <option value="Lentils">
+            <option value="GarlicBread">
+        </datalist>
+        <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send</button>
+            <button type="reset" onclick="progress">Rest</button>
+        
+    </form>  
+</body>
+</html>
