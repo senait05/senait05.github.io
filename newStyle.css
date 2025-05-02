@@ -35,7 +35,9 @@ body {
     border: 1px solid #ccc;
     box-sizing: border-box;
     }
-
+input:focus, select:focus,textarea:focus{
+    background-color:rgb(220,225,220);
+}
     
     button {
     margin-top: 15px;
