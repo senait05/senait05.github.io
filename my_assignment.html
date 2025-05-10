@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+   About me website
+    
+    Author: Senait Ghebremichael
+    Date: 05/05/2025
+    Fielname: my_assignment.html
+    -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="main_script.js"  defer></script>
+</head>
+<body>
+    <h1>Welcome to my Assignment!</h1>
+    <p id="datetime">Loading current day and time...</p>
+    <hr>
+<!-- creating Assignment dueDate using Math method  -->
+    <p id="countdown">Calculating...</p>
+
+    <h2>Convert Number ↔ Text</h2>
+
+  <!-- Number to Text -->
+  <div>
+    <label for="numberInput">Enter Number:</label>
+    <input type="number" id="numberInput">
+    <button onclick="numberToText()">Convert to Text</button>
+    <p id="textOutput"></p>
+  </div>
+
+  <!-- Text to Number -->
+  <div>
+    <label for="textInput">Enter Text (e.g., '123'):</label>
+    <input type="text" id="textInput">
+    <button onclick="textToNumber()">Convert to Number</button>
+    <p id="numberOutput"></p>
+  </div>
+</body>
+</html>
